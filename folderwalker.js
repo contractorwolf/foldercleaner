@@ -27,3 +27,5 @@ var WalkFolder = function(folder, fileext) {
 var foldername = process.argv.slice(2)
 
 WalkFolder(`./${foldername}`,'.map');
+
+// execute it like this:  > node folderwalker ClientApp
